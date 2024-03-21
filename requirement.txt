@@ -1,0 +1,6 @@
+Deploy a 2 tier infrastructure on AWS using Terraform
+
+1.Deploy a VPC with an internet gateway attached
+2.Two EC2s should be deployed on 2 separate public subnets
+3.Deploy an application load balancer to route traffic to both the EC2 instances
+4.Deploy an S3 bucket that can be accessed from the EC2 instances
